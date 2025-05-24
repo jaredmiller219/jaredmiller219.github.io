@@ -1,0 +1,23 @@
+# Site settings
+title: Personal Github Site
+description: A site using Architect with Tactile-style code blocks
+
+# Leave blank unless your site is at a subpath, like /blog
+baseurl: ""
+
+username: jaredmiller219
+url: "https://jaredmiller219.github.io"
+
+# Theme settings
+theme: jekyll-theme-architect
+
+# Plugins (not needed for Architect, but good practice)
+plugins:
+  - jekyll-feed
+
+# Optional: Markdown settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
