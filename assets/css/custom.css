@@ -8,6 +8,7 @@ h4::before,
 h5::before,
 h6::before {
   content: none !important;
+  text-indent: 0;
 }
 
 /* .sidebar nav ul li::before {
