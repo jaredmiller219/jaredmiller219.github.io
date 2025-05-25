@@ -1,22 +1,9 @@
-/* Remove slashes and reset only text indent */
-/* .sidebar nav ul li::before,
-.sidebar nav ul li::after,
-h1::before,
-h2::before,
-h3::before,
-h4::before,
-h5::before,
-h6::before {
-  content: none !important;
-  text-indent: 0;
-} */
-
-#main-content h1 {
-  text-indent: 0;
+/* Reset text indent for headers inside main content */
+#main-content h1,
+#main-content h2,
+#main-content h3,
+#main-content h4,
+#main-content h5,
+#main-content h6 {
+  text-indent: 0 !important;
 }
-
-/* .sidebar nav ul li::before {
-  content: " ";
-  display: inline-block;
-  width: 0.7em;
-} */
