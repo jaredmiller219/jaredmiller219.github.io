@@ -1,6 +1,6 @@
 # Site settings
-title: Personal Github Site
-description: A site using Architect with Tactile-style code blocks
+title: Jared Miller
+description: All the projects I have done over the years
 
 # Leave blank unless your site is at a subpath, like /blog
 baseurl: ""
@@ -10,10 +10,6 @@ url: "https://jaredmiller219.github.io"
 
 # Theme settings
 theme: jekyll-theme-architect
-
-# Tell Jekyll where your SCSS lives
-sass:
-  sass_dir: assets/css
 
 # Plugins (not needed for Architect, but good practice)
 plugins:
