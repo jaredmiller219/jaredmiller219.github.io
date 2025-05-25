@@ -1,4 +1,4 @@
-/* Remove slashes before headers */
+/* Remove slashes and reset only text indent */
 .sidebar nav ul li::before,
 .sidebar nav ul li::after,
 h1::before,
@@ -7,7 +7,8 @@ h3::before,
 h4::before,
 h5::before,
 h6::before {
-  content: none !important;
+  content: none;
+  text-indent: 0;
 }
 
 .sidebar nav ul li::before {
