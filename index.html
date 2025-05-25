@@ -5,17 +5,79 @@ title: Home
 
 <h1>Welcome to My Site</h1>
 
-<p>This page is written entirely in HTML, not Markdown.</p>
+<p>
+  I'm glad you're here. This site showcases my work, personal projects, and ways
+  to connect with me.
+</p>
 
-<h2>Sections</h2>
-<ul>
-  <li>Intro</li>
-  <li>Projects</li>
-  <li>Contact</li>
-</ul>
+<nav>
+  <ul>
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-<h2>Code Block</h2>
-<pre><code class="language-python">
+<hr />
+
+<section id="intro">
+  <h2>Intro</h2>
+  <p>
+    Hi, I'm Jared, a developer who builds things like games, websites, terminal
+    emulators, and more!
+  </p>
+</section>
+
+<hr />
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <a href="https://github.com/yourusername/project1" target="_blank"
+        >Project One</a
+      >
+      – A short description of what it does.
+    </li>
+    <li>
+      <a href="https://yourwebsite.com/project2" target="_blank">Project Two</a>
+      – Another project with its own unique twist.
+    </li>
+    <li><a href="/projects.html">More Projects...</a></li>
+  </ul>
+</section>
+
+<hr />
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>If you'd like to get in touch, reach out via one of the following:</p>
+  <ul>
+    <li>
+      Email: <a href="mailto:your.email@example.com">your.email@example.com</a>
+    </li>
+    <li>
+      GitHub:
+      <a href="https://github.com/yourusername" target="_blank"
+        >@yourusername</a
+      >
+    </li>
+    <li>
+      LinkedIn:
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"
+        >yourprofile</a
+      >
+    </li>
+  </ul>
+</section>
+
+<hr />
+
+<section id="code-example">
+  <h2>Code Example</h2>
+  <p>Here's a sample Python snippet I like:</p>
+  <pre><code class="language-python">
 def hello(name):
     return f"Hello, {name}!"
-</code></pre>
+  </code></pre>
+</section>
