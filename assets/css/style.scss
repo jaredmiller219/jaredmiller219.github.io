@@ -1,0 +1,16 @@
+---
+# Front matter makes Jekyll process this file
+---
+
+@import "jekyll-theme-architect";
+
+/* Custom code block styles (Tactile-inspired) */
+pre,
+code {
+  background-color: #eee;
+  color: #111;
+  border-radius: 3px;
+  padding: 0.5em;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  overflow-x: auto;
+}
