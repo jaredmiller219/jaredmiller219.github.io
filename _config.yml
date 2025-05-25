@@ -1,6 +1,7 @@
 # Site settings
 title: Jared Miller
 description: All the projects I have done over the years
+sidebar_footer: "© 2025 Jared Miller - Built with Jekyll"
 
 # Leave blank unless your site is at a subpath, like /blog
 baseurl: ""
