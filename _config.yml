@@ -16,6 +16,8 @@ theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
+show_downloads: true
+
 # Optional: Markdown settings
 markdown: kramdown
 kramdown:
