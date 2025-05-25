@@ -8,8 +8,8 @@ baseurl: ""
 username: jaredmiller219
 url: "https://jaredmiller219.github.io"
 
-# # Theme settings
-# theme: jekyll-theme-architect
+# Theme settings
+theme: jekyll-theme-architect
 
 # Tell Jekyll where your SCSS lives
 sass:
