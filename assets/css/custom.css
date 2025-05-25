@@ -10,9 +10,9 @@ h6::before {
   content: none !important;
 } */
 
-.sidebar nav ul li::before {
+/* .sidebar nav ul li::before {
   content: "/";
   visibility: hidden;
   display: inline-block;
   width: 0.7em;
-}
+} */
